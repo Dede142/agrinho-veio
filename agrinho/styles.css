@@ -15,7 +15,6 @@ body {
 .container {
     width: 80%;
     margin: auto;
-    overflow: hidden;
 }
 
 header {
@@ -76,15 +75,11 @@ section p {
     margin-bottom: 70px;
 }
 
-.noticia{
-    width: calc(40% - 20px);
-    justify-content: space-between;
-
+.noticias {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
-.veio{
-    display: flex;
-}
-
 
 footer {
     background: #333;
