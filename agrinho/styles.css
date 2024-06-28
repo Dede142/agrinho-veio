@@ -12,9 +12,18 @@ body {
     background-color: #f4f4f4;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
+.container-principal{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.noticia{
+    height: 100vh;
+}
+.imagens{
+ width: 40%;
 }
 
 header {
