@@ -16,12 +16,9 @@ body {
     display: grid;
     grid-template-columns: 50% 50%;
     display: flex;
-    margin-left: 40px;
-    margin-right: 40px;
+
 }
-.noticia{
-    height: 100vh;
-}
+
 .imagens{
  width: 40%;
 }
@@ -84,11 +81,6 @@ section p {
     margin-bottom: 70px;
 }
 
-.noticias {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
 
 footer {
     background: #333;
